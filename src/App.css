@@ -1,0 +1,86 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css');
+
+
+body{
+  font-family: 'Oswald', sans-serif;
+} 
+
+p{
+  font-family: sans-serif;
+}
+
+/* for banner */
+.hero {
+  width: 400px;
+  animation: UpDown 3s linear infinite;
+  position: relative;
+  font-size: 4em;
+  cursor: pointer;
+  color: #715c3f;
+
+}
+
+@keyframes UpDown {
+  0% {
+    bottom: 0;
+  }
+
+  50% {
+    bottom: .5em;
+  }
+
+  100% {
+    bottom: 0;
+  }
+
+}
+
+
+.bg-animated  {
+  background: linear-gradient(
+    57deg,
+    #470b55,
+    #034ea9,
+    #450f74,
+    #a5308c
+  );
+  background-size: 1000% 1000%;
+  -webkit-animation: ani 20s ease infinite;
+  -moz-animation: ani 20s ease infinite;
+  animation: ani 10s ease infinite;
+}
+@-webkit-keyframes ani {
+  0% {
+    background-position: 4% 0%;
+  }
+  50% {
+    background-position: 97% 100%;
+  }
+  100% {
+    background-position: 4% 0%;
+  }
+}
+@-moz-keyframes ani {
+  0% {
+    background-position: 4% 0%;
+  }
+  50% {
+    background-position: 97% 100%;
+  }
+  100% {
+    background-position: 4% 0%;
+  }
+}
+@keyframes ani {
+  0% {
+    background-position: 4% 0%;
+  }
+  50% {
+    background-position: 97% 100%;
+  }
+  100% {
+    background-position: 4% 0%;
+  }
+}
+
+
